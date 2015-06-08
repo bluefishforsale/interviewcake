@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+"""
+
+"""
+
 import sys
 
 inputdata = [1, 7, 3, 4]
@@ -34,12 +38,9 @@ def get_products_of_all_ints_except_at_index(data):
 
 print("O(n^2) Solution:"),
 get_products_of_all_ints_except_at_index(inputdata)
-#print("O(2n)  Solution: "),
-#On_use_div(inputdata)
-print("O(n^2) Solution:"),
+
+#print("O(n^2) Solution:"),
 #get_products_of_all_ints_except_at_index(inputdata2)
-#print("O(2n)  Solution: "),
-#On_use_div(inputdata2)
 
 print("O(2n)  Solution: "),
 On_no_div(inputdata)
