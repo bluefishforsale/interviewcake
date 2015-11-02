@@ -2,6 +2,7 @@
 # finds the maximum profit given an array of numbers representing
 # stock price changes througout the day.
 #
+#
 # Goal: O(n) time and O(1) space
 
 def get_max_profit(price_array):
