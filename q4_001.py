@@ -43,14 +43,26 @@ def condense_meeting_times(times):
     return merged_times
 
 
+# testing different inputs to the function
+# Desired result:
+#   [(0, 1), (3, 8), (9, 12)]
 times = [(0, 1), (3, 5), (4, 8), (10, 12), (9, 10)]
 print condense_meeting_times(times)
 print
 
+# Desired result:
+#   [(0, 12)]
 times = [(0, 1), (0, 12), (2, 4), (3, 5), (3, 10), (4, 8), (9, 10), (10, 12)]
 print condense_meeting_times(times)
 print
 
+# Desired result:
+#   [(0, 7), (8, 9)]
 times = [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (8, 9)]
 print condense_meeting_times(times)
 print
+
+# Desired result:
+#   [(1, 5)]
+times = [(1, 5), (2, 3)]
+print condense_meeting_times(times)
